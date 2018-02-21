@@ -1,0 +1,100 @@
+@import '../theme/vars.scss';
+.userInfo {
+  display: flex;
+  flex-flow: row wrap;
+  .file-data-container{
+    flex: 2 0px;
+    order: 2;
+  }
+  .userForm {
+    border-right: 0.5px solid $darker-gray;
+    margin-left: $leftMargin;
+    margin-right: $rightMargin;
+    text-align: center;
+    order: 1;
+
+    label{
+      display: block;
+    }
+
+    .usernameForm {
+      margin-top: $topMargin;
+      margin-left: $leftMargin;
+      margin-right: $rightMargin;
+      margin-bottom: 40px;
+    }
+
+    .emailForm {
+      margin-top: $topMargin;
+      margin-left: $leftMargin;
+      margin-right: $rightMargin;
+    }
+
+
+    .welcomeHeader {
+      background-color: #FF3D00;
+      line-height: 90px;
+      vertical-align: text-bottom;
+      text-align: center;
+    }
+
+    .landingHeaderWords {
+      background-color: #FF3D00;
+      line-height: 90px;
+      vertical-align: text-bottom;
+      text-align: center;
+    }
+
+
+    .usernameLanding {
+      margin-top: $topMargin;
+      margin-left: $leftMargin;
+      margin-right: $rightMargin;
+      text-align: center;
+    }
+
+    .emailLanding {
+      margin-top: $topMargin;
+      margin-left: $leftMargin;
+      margin-right: $rightMargin;
+      text-align: center;
+    }
+
+
+    .content {
+      border: 2px solid black;
+      height: 666px;
+      width:1100px;
+      float:right;
+      display: inline-block;
+      margin-top: 0px;
+    }
+
+    .groupForm {
+      margin-top: $topMargin;
+      margin-left: $leftMargin;
+      margin-right: $rightMargin;
+      margin-bottom: 20px;
+    }
+
+    .aboutMeInput {
+      width: 200px;
+    }
+
+    .aboutMeForm {
+      margin-top: $bigTopMargin;
+      margin-left: $leftMargin;
+      margin-right: $rightMargin;
+    }
+
+    .passwordForm {
+      margin-top: $bigTopMargin;
+      margin-left: $leftMargin;
+      margin-right: $rightMargin;
+    }
+
+    .deleteButton {
+      margin-top: $bigTopMargin;
+    }
+  }
+}
